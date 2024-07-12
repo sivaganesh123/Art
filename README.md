@@ -1,3 +1,3 @@
 # Insta Reel
 
----Crreating mahabharat as anime for insta reels---
+Crreating mahabharat as anime for insta reels
