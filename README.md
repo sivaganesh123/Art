@@ -12,6 +12,8 @@ Snippets of work done so far
 
 ![Shakuni](https://github.com/sivaganesh123/Art/blob/Characters/shakuni.png)
 
+![Scenary](https://github.com/sivaganesh123/Art/blob/Scene1/template.png)
+
 ---  
 > [!Important]
 > **Currently, the release v1.0 has only the basic scene with a basic layout**
