@@ -10,9 +10,7 @@ We will be creating each scenes as different Files in Krita.
 
 Snippets of work done so far
 
-![Shakuni](https://github.com/sivaganesh123/Art/blob/Characters/shakuni.png)
-
-![Scenary](https://github.com/sivaganesh123/Art/blob/Scene1/template.png)
+<img src="https://github.com/sivaganesh123/Art/blob/Characters/Duryodhan.png" height=300 width=600/><img src ="https://github.com/sivaganesh123/Art/blob/Characters/shakuni.png" height=300 width=600 /> <img src="https://github.com/sivaganesh123/Art/blob/Scene1/template.png" height=300 width=600/>
 
 ---  
 > [!Important]
