@@ -1,0 +1,22 @@
+C:/Users/user/Desktop/ffmpeg-20200809-6e951d0-win64-static/bin/ffmpeg.exe -hide_banner -y -y -r 24 -start_number 25 -start_number_range 1 -i F:/Krita/New folder/frame%04d.png -i F:/Krita/New folder/KritaTempPalettegen_%06d.png -lavfi [0:v][1:v]paletteuse=dither=sierra2_4a:diff_mode=none -f gif -loop 0 -gifflags +transdiff F:/Krita/New folder/Krishna.gif
+=====================================================
+Input #0, image2, from 'F:/Krita/New folder/frame%04d.png':
+  Duration: 00:00:00.64, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: png, rgba(pc), 1920x1080 [SAR 11811:11811 DAR 16:9], 25 fps, 25 tbr, 25 tbn, 25 tbc
+Input #1, image2, from 'F:/Krita/New folder/KritaTempPalettegen_%06d.png':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: N/A
+    Stream #1:0: Video: png, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse:default
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+Press [q] to stop, [?] for help
+[image2 @ 00000207ee8ae9c0] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+Output #0, gif, to 'F:/Krita/New folder/Krishna.gif':
+  Metadata:
+    encoder         : Lavf58.50.100
+    Stream #0:0: Video: gif, pal8, 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 24 fps, 100 tbn, 24 tbc (default)
+    Metadata:
+      encoder         : Lavc58.100.100 gif
+frame=    1 fps=0.0 q=-0.0 size=       0kB time=00:00:00.01 bitrate=   0.0kbits/s speed=0.0185x    frame=    6 fps=5.1 q=-0.0 size=      24kB time=00:00:00.22 bitrate= 898.1kbits/s speed=0.187x    frame=   10 fps=5.3 q=-0.0 size=      29kB time=00:00:00.39 bitrate= 613.5kbits/s speed=0.208x    frame=   14 fps=5.7 q=-0.0 size=      39kB time=00:00:00.55 bitrate= 579.3kbits/s speed=0.223x    frame=   16 fps=5.5 q=-0.0 Lsize=      44kB time=00:00:00.64 bitrate= 562.7kbits/s speed=0.219x    
+video:44kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.044449%
