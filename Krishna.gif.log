@@ -11,12 +11,12 @@ Stream mapping:
   Stream #1:0 (png) -> paletteuse:palette
   paletteuse -> Stream #0:0 (gif)
 Press [q] to stop, [?] for help
-[image2 @ 00000207ee8ae9c0] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+[image2 @ 00000228e3d5e9c0] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
 Output #0, gif, to 'F:/Krita/New folder/Krishna.gif':
   Metadata:
     encoder         : Lavf58.50.100
     Stream #0:0: Video: gif, pal8, 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 24 fps, 100 tbn, 24 tbc (default)
     Metadata:
       encoder         : Lavc58.100.100 gif
-frame=    1 fps=0.0 q=-0.0 size=       0kB time=00:00:00.01 bitrate=   0.0kbits/s speed=0.0185x    frame=    6 fps=5.1 q=-0.0 size=      24kB time=00:00:00.22 bitrate= 898.1kbits/s speed=0.187x    frame=   10 fps=5.3 q=-0.0 size=      29kB time=00:00:00.39 bitrate= 613.5kbits/s speed=0.208x    frame=   14 fps=5.7 q=-0.0 size=      39kB time=00:00:00.55 bitrate= 579.3kbits/s speed=0.223x    frame=   16 fps=5.5 q=-0.0 Lsize=      44kB time=00:00:00.64 bitrate= 562.7kbits/s speed=0.219x    
-video:44kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.044449%
+frame=    1 fps=0.8 q=-0.0 size=       0kB time=00:00:00.01 bitrate=   0.0kbits/s speed=0.00847x    frame=    2 fps=1.1 q=-0.0 size=      19kB time=00:00:00.05 bitrate=3154.9kbits/s speed=0.0274x    frame=    5 fps=1.8 q=-0.0 size=      24kB time=00:00:00.18 bitrate=1096.5kbits/s speed=0.0637x    frame=    6 fps=1.8 q=-0.0 size=      24kB time=00:00:00.22 bitrate= 898.1kbits/s speed=0.0659x    frame=    8 fps=1.9 q=-0.0 size=      30kB time=00:00:00.30 bitrate= 809.8kbits/s speed=0.071x    frame=   10 fps=1.9 q=-0.0 size=      30kB time=00:00:00.39 bitrate= 623.9kbits/s speed=0.076x    frame=   11 fps=1.9 q=-0.0 size=      35kB time=00:00:00.43 bitrate= 661.1kbits/s speed=0.074x    frame=   12 fps=1.9 q=-0.0 size=      35kB time=00:00:00.47 bitrate= 605.2kbits/s speed=0.0739x    frame=   14 fps=2.0 q=-0.0 size=      40kB time=00:00:00.55 bitrate= 588.9kbits/s speed=0.0768x    frame=   16 fps=2.0 q=-0.0 size=      40kB time=00:00:00.64 bitrate= 506.7kbits/s speed=0.0813x    frame=   16 fps=1.9 q=-0.0 Lsize=      45kB time=00:00:00.64 bitrate= 577.3kbits/s speed=0.0778x    
+video:45kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.043326%
