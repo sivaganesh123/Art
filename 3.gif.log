@@ -1,0 +1,22 @@
+C:/Program Files/Krita (x64)/bin/ffmpeg.exe -hide_banner -y -y -r 24 -start_number 0 -start_number_range 1 -i C:/Krita/Art/frame%04d.png -i C:/Krita/Art/KritaTempPalettegen_%06d.png -lavfi [0:v][1:v]paletteuse=dither=sierra2_4a:diff_mode=none -f gif -loop 0 -gifflags +transdiff C:/Krita/Art/3.gif
+=====================================================
+Input #0, image2, from 'C:/Krita/Art/frame%04d.png':
+  Duration: 00:00:03.72, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba(pc), 1920x1080 [SAR 11811:11811 DAR 16:9], 25 fps, 25 tbr, 25 tbn, 25 tbc
+Input #1, image2, from 'C:/Krita/Art/KritaTempPalettegen_%06d.png':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: N/A
+  Stream #1:0: Video: png, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 25 fps, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse:default
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+Press [q] to stop, [?] for help
+[image2 @ 000001a9243ab6c0] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+Output #0, gif, to 'C:/Krita/Art/3.gif':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Video: gif, pal8(pc, gbr/unknown/unknown, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 24 fps, 100 tbn (default)
+    Metadata:
+      encoder         : Lavc58.134.100 gif
+frame=    1 fps=0.0 q=-0.0 size=       0kB time=00:00:00.01 bitrate=   0.0kbits/s speed=0.0939x    frame=    9 fps=0.0 q=-0.0 size=     145kB time=00:00:00.34 bitrate=3491.6kbits/s speed=0.526x    frame=   18 fps= 16 q=-0.0 size=     211kB time=00:00:00.72 bitrate=2395.4kbits/s speed=0.627x    frame=   28 fps= 17 q=-0.0 size=     256kB time=00:00:01.14 bitrate=1839.6kbits/s speed=0.673x    frame=   38 fps= 17 q=-0.0 size=     256kB time=00:00:01.55 bitrate=1353.0kbits/s speed=0.692x    frame=   48 fps= 17 q=-0.0 size=     256kB time=00:00:01.97 bitrate=1064.5kbits/s speed=0.708x    frame=   58 fps= 17 q=-0.0 size=     512kB time=00:00:02.39 bitrate=1754.9kbits/s speed=0.72x    frame=   68 fps= 18 q=-0.0 size=     512kB time=00:00:02.80 bitrate=1498.0kbits/s speed=0.725x    frame=   78 fps= 18 q=-0.0 size=     768kB time=00:00:03.22 bitrate=1953.9kbits/s speed=0.732x    frame=   88 fps= 18 q=-0.0 size=     768kB time=00:00:03.64 bitrate=1728.4kbits/s speed=0.739x    frame=   93 fps= 18 q=-0.0 Lsize=    1047kB time=00:00:03.84 bitrate=2234.0kbits/s speed=0.732x    
+video:1047kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.001865%
