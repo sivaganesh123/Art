@@ -1,22 +1,21 @@
-C:/Program Files/Krita (x64)/bin/ffmpeg.exe -hide_banner -y -y -r 24 -start_number 0 -start_number_range 1 -i C:/Krita/Art/frame%04d.png -i C:/Krita/Art/KritaTempPalettegen_%06d.png -lavfi [0:v][1:v]paletteuse=dither=sierra2_4a:diff_mode=none -f gif -loop 0 -gifflags +transdiff C:/Krita/Art/test.gif
+E:/Program Files/Krita (x64)/bin/ffmpeg.exe -hide_banner -y -y -r 24 -start_number 22 -start_number_range 1 -i E:/Krita/Art/frame%04d.png -i E:/Krita/Art/KritaTempPalettegen_%06d.png -lavfi [0:v][1:v]paletteuse=dither=sierra2_4a:diff_mode=none -f gif -loop 0 -gifflags +transdiff E:/Krita/Art/test.gif
 =====================================================
-Input #0, image2, from 'C:/Krita/Art/frame%04d.png':
-  Duration: 00:00:02.00, start: 0.000000, bitrate: N/A
-  Stream #0:0: Video: png, rgba(pc), 1920x1080 [SAR 11811:11811 DAR 16:9], 25 fps, 25 tbr, 25 tbn, 25 tbc
-Input #1, image2, from 'C:/Krita/Art/KritaTempPalettegen_%06d.png':
+Input #0, image2, from 'E:/Krita/Art/frame%04d.png':
+  Duration: 00:00:00.76, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba(pc, gbr/unknown/unknown), 1920x1080 [SAR 11811:11811 DAR 16:9], 25 fps, 25 tbr, 25 tbn
+Input #1, image2, from 'E:/Krita/Art/KritaTempPalettegen_%06d.png':
   Duration: 00:00:00.04, start: 0.000000, bitrate: N/A
-  Stream #1:0: Video: png, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 25 fps, 25 tbr, 25 tbn, 25 tbc
+  Stream #1:0: Video: png, rgba(pc, gbr/unknown/unknown), 16x16 [SAR 1:1 DAR 1:1], 25 fps, 25 tbr, 25 tbn
 Stream mapping:
-  Stream #0:0 (png) -> paletteuse:default
-  Stream #1:0 (png) -> paletteuse:palette
-  paletteuse -> Stream #0:0 (gif)
+  Stream #0:0 (png) -> paletteuse
+  Stream #1:0 (png) -> paletteuse
+  paletteuse:default -> Stream #0:0 (gif)
 Press [q] to stop, [?] for help
-[image2 @ 00000184ac13d900] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
-Output #0, gif, to 'C:/Krita/Art/test.gif':
+Output #0, gif, to 'E:/Krita/Art/test.gif':
   Metadata:
-    encoder         : Lavf58.76.100
-  Stream #0:0: Video: gif, pal8(pc, gbr/unknown/unknown, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 24 fps, 100 tbn (default)
-    Metadata:
-      encoder         : Lavc58.134.100 gif
-frame=    1 fps=0.0 q=-0.0 size=       0kB time=00:00:00.01 bitrate=   0.0kbits/s speed=0.107x    frame=   11 fps=0.0 q=-0.0 size=      46kB time=00:00:00.43 bitrate= 867.7kbits/s speed=0.685x    frame=   22 fps= 19 q=-0.0 size=      46kB time=00:00:00.89 bitrate= 421.7kbits/s speed=0.765x    frame=   33 fps= 19 q=-0.0 size=     166kB time=00:00:01.34 bitrate=1014.9kbits/s speed=0.78x    frame=   43 fps= 19 q=-0.0 size=     256kB time=00:00:01.76 bitrate=1191.6kbits/s speed=0.79x    frame=   50 fps= 19 q=-0.0 Lsize=     416kB time=00:00:02.05 bitrate=1660.9kbits/s speed=0.784x    
-video:416kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.004700%
+    encoder         : Lavf61.7.100
+  Stream #0:0: Video: gif, pal8(pc, gbr/unknown/unknown, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 24 fps, 100 tbn
+      Metadata:
+        encoder         : Lavc61.19.101 gif
+frame=   11 fps=0.0 q=-0.0 size=     189KiB time=00:00:00.45 bitrate=3385.8kbits/s speed=0.904x    [out#0/gif @ 00000232e1ad8e80] video:315KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.006198%
+frame=   19 fps=0.0 q=-0.0 Lsize=     315KiB time=00:00:00.79 bitrate=3260.9kbits/s speed=1.03x    
