@@ -1,0 +1,434 @@
+E:/Program Files/Krita (x64)/bin/ffmpeg.exe -hide_banner -y -v debug -r 24 -start_number 0 -start_number_range 1 -i E:/Krita/Art/frame%04d.png -vf palettegen=stats_mode=full:reserve_transparent=1 -y E:/Krita/Art/KritaTempPalettegen_%06d.png 
+=====================================================
+Splitting the commandline.
+Reading option '-hide_banner' ... matched as option 'hide_banner' (do not show program banner) with argument '1'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-r' ... matched as option 'r' (override input framerate/convert to given output framerate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-start_number_range' ... matched as AVOption 'start_number_range' with argument '1'.
+Reading option '-i' ... matched as input url with argument 'E:/Krita/Art/frame%04d.png'.
+Reading option '-vf' ... matched as option 'vf' (alias for -filter:v (apply filters to video streams)) with argument 'palettegen=stats_mode=full:reserve_transparent=1'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'E:/Krita/Art/KritaTempPalettegen_%06d.png' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option hide_banner (do not show program banner) with argument 1.
+Applying option y (overwrite output files) with argument 1.
+Applying option v (set logging level) with argument debug.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url E:/Krita/Art/frame%04d.png.
+Applying option r (override input framerate/convert to given output framerate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: E:/Krita/Art/frame%04d.png.
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0000.png' for reading
+[file @ 000002227bddb880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227bdea880] Statistics: 1323640 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0001.png' for reading
+[file @ 000002227bdea880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227bde7c80] Statistics: 1323640 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0002.png' for reading
+[file @ 000002227bde7c80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227bdeb980] Statistics: 1313918 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0003.png' for reading
+[file @ 000002227bdeb980] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be07400] Statistics: 1310183 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Probe buffer size limit of 5000000 bytes reached
+Input #0, image2, from 'E:/Krita/Art/frame%04d.png':
+  Duration: 00:00:03.72, start: 0.000000, bitrate: N/A
+  Stream #0:0, 4, 1/25: Video: png, 1 reference frame, rgba(pc, gbr/unknown/unknown), 1920x1080 [SAR 11811:11811 DAR 16:9], 0/1, 25 fps, 25 tbr, 25 tbn
+Successfully opened the file.
+Parsing a group of options: output url E:/Krita/Art/KritaTempPalettegen_%06d.png.
+Applying option vf (alias for -filter:v (apply filters to video streams)) with argument palettegen=stats_mode=full:reserve_transparent=1.
+Successfully parsed a group of options.
+Opening an output file: E:/Krita/Art/KritaTempPalettegen_%06d.png.
+[out#0/image2 @ 000002227bdf9a80] No explicit maps, mapping streams automatically...
+[vost#0:0/png @ 000002227be05940] Created video stream from input stream 0:0
+[AVFilterGraph @ 000002227bddc600] Setting 'stats_mode' to value 'full'
+[AVFilterGraph @ 000002227bddc600] Setting 'reserve_transparent' to value '1'
+detected 16 logical cores
+Successfully opened the file.
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+[vost#0:0/png @ 000002227be05940] Starting thread...
+[vf#0:0 @ 000002227bdea4c0] Starting thread...
+[vist#0:0/png @ 000002227be03440] [dec:png @ 000002227be9e640] Starting thread...
+[in#0/image2 @ 000002227bdf7b80] Starting thread...
+Press [q] to stop, [?] for help
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0004.png' for reading
+[file @ 000002227bddb880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5bc00] Statistics: 1310183 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0005.png' for reading
+[file @ 000002227bddb880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5c580] Statistics: 1302391 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0006.png' for reading
+[file @ 000002227bddb880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5c2c0] Statistics: 1304981 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0007.png' for reading
+[file @ 000002227bddb880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5c440] Statistics: 1304981 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0008.png' for reading
+[file @ 000002227bddb880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5bd40] Statistics: 1308144 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0009.png' for reading
+[file @ 000002227bddb880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5c180] Statistics: 1309052 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0010.png' for reading
+[file @ 000002227bddb880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5d080] Statistics: 1309052 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0011.png' for reading
+[file @ 000002227bddb880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5b500] Statistics: 1309633 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0012.png' for reading
+[file @ 000002227bddb880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5c700] Statistics: 1306290 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0013.png' for reading
+[file @ 000002227be9b180] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5c180] Statistics: 1308788 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0014.png' for reading
+[file @ 000002227be9b300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5c700] Statistics: 1306352 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0015.png' for reading
+[file @ 000002227be9b440] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5c000] Statistics: 1303428 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0016.png' for reading
+[file @ 000002227be9b5c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5b7c0] Statistics: 1305893 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0017.png' for reading
+[file @ 000002227be9b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5c580] Statistics: 1311202 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0018.png' for reading
+[file @ 000002227be9b640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5c9c0] Statistics: 1310889 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0019.png' for reading
+[file @ 000002227beced00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5cc80] Statistics: 1312442 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0020.png' for reading
+[file @ 0000022201da2480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5b500] Statistics: 1307145 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0021.png' for reading
+[file @ 0000022201da1fc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5bc00] Statistics: 1308211 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0022.png' for reading
+[file @ 0000022201da1fc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5bc00] Statistics: 1310415 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0023.png' for reading
+[file @ 0000022201da2700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5b500] Statistics: 1309896 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0024.png' for reading
+[file @ 0000022201da2580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5c000] Statistics: 1311583 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0025.png' for reading
+[file @ 0000022201da2240] Setting default whitelist 'file,crypto,data'
+[AVFilterGraph @ 000002227be70f40] Setting 'stats_mode' to value 'full'
+[AVFilterGraph @ 000002227be70f40] Setting 'reserve_transparent' to value '1'
+[AVIOContext @ 000002227be5bc00] Statistics: 1313655 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0026.png' for reading
+[file @ 0000022201da23c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5cc80] Statistics: 1317045 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0027.png' for reading
+[file @ 0000022201da2a40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5c2c0] Statistics: 1316897 bytes read, 0 seeks
+[graph -1 input from stream 0:0 @ 000002227bde2d40] Setting 'video_size' to value '1920x1080'
+[graph -1 input from stream 0:0 @ 000002227bde2d40] Setting 'pix_fmt' to value '26'
+[graph -1 input from stream 0:0 @ 000002227bde2d40] Setting 'time_base' to value '1/24'
+[graph -1 input from stream 0:0 @ 000002227bde2d40] Setting 'pixel_aspect' to value '11811/11811'
+[graph -1 input from stream 0:0 @ 000002227bde2d40] Setting 'colorspace' to value '0'
+[graph -1 input from stream 0:0 @ 000002227bde2d40] Setting 'range' to value '2'
+[graph -1 input from stream 0:0 @ 000002227bde2d40] Setting 'frame_rate' to value '24/1'
+[graph -1 input from stream 0:0 @ 000002227bde2d40] w:1920 h:1080 pixfmt:rgba tb:1/24 fr:24/1 sar:11811/11811 csp:gbr range:pc
+[format @ 000002227bde2040] Setting 'pix_fmts' to value 'rgb24|rgba|rgb48be|rgba64be|pal8|gray|ya8|gray16be|ya16be|monob'
+[auto_scale_0 @ 000002227bde2a40] w:iw h:ih flags:'' interl:0
+[Parsed_palettegen_0 @ 000002227bde2740] auto-inserting filter 'auto_scale_0' between the filter 'graph -1 input from stream 0:0' and the filter 'Parsed_palettegen_0'
+[auto_scale_1 @ 000002227bde2240] w:iw h:ih flags:'' interl:0
+[format @ 000002227bde2040] auto-inserting filter 'auto_scale_1' between the filter 'Parsed_palettegen_0' and the filter 'format'
+[AVFilterGraph @ 000002227be70f40] query_formats: 4 queried, 3 merged, 6 already done, 0 delayed
+[auto_scale_1 @ 000002227bde2240] picking rgba out of 10 ref:bgra alpha:1
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0028.png' for reading
+[file @ 0000022201da2300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022201df6440] Statistics: 1318023 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0029.png' for reading
+[file @ 0000022201da27c0] Setting default whitelist 'file,crypto,data'
+[swscaler @ 0000022201e15600] [swscaler @ 0000022200084ec0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0000022201e15600] [swscaler @ 0000022200097f00] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0000022201e15600] [swscaler @ 00000222000ace00] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0000022201e15600] [swscaler @ 00000222000bfe40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0000022201e15600] [swscaler @ 00000222000d4d40] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0000022201e15600] [swscaler @ 00000222000e7d80] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0000022201e15600] [swscaler @ 00000222000fccc0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0000022201e15600] [swscaler @ 0000022200111bc0] Forcing full internal H chroma due to input having non subsampled chroma
+[AVIOContext @ 0000022201df5c00] Statistics: 1323272 bytes read, 0 seeks
+[swscaler @ 0000022201e15600] [swscaler @ 0000022200126b00] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0000022201e15600] [swscaler @ 0000022200133ac0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0000022201e15600] [swscaler @ 000002220014b200] Forcing full internal H chroma due to input having non subsampled chroma
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0030.png' for reading
+[file @ 0000022201da2080] Setting default whitelist 'file,crypto,data'
+[swscaler @ 0000022201e15600] [swscaler @ 000002220016e240] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0000022201e15600] [swscaler @ 0000022200181280] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0000022201e15600] [swscaler @ 000002220019c300] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0000022201e15600] [swscaler @ 00000222001af340] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 0000022201e15600] [swscaler @ 00000222001c2340] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scale_0 @ 000002227bde2a40] w:1920 h:1080 fmt:rgba csp:gbr range:pc sar:11811/11811 -> w:1920 h:1080 fmt:bgra csp:gbr range:pc sar:1/1 flags:0x00000004
+[auto_scale_0 @ 000002227bde2a40] [framesync @ 0000022200084728] Selected 1/24 time base
+[auto_scale_0 @ 000002227bde2a40] [framesync @ 0000022200084728] Sync level 1
+[AVIOContext @ 0000022201df5c00] Statistics: 1325240 bytes read, 0 seeks
+[swscaler @ 00000222001d5380] [swscaler @ 00000222001edfc0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000222001d5380] [swscaler @ 000002220b046100] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000222001d5380] [swscaler @ 000002220b059140] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000222001d5380] [swscaler @ 000002220b06c140] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000222001d5380] [swscaler @ 000002220b07f180] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000222001d5380] [swscaler @ 000002220b0921c0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000222001d5380] [swscaler @ 000002220b0a5200] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000222001d5380] [swscaler @ 000002220b0b8340] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000222001d5380] [swscaler @ 000002220b0cb4c0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000222001d5380] [swscaler @ 000002220b0de600] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000222001d5380] [swscaler @ 000002220b0f1780] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000222001d5380] [swscaler @ 000002220b104780] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000222001d5380] [swscaler @ 000002220b1177c0] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000222001d5380] [swscaler @ 000002220b12a800] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000222001d5380] [swscaler @ 000002220b13d940] Forcing full internal H chroma due to input having non subsampled chroma
+[swscaler @ 00000222001d5380] [swscaler @ 000002220b150ac0] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scale_1 @ 000002227bde2240] w:16 h:16 fmt:bgra csp:gbr range:pc sar:1/1 -> w:16 h:16 fmt:rgba csp:gbr range:pc sar:1/1 flags:0x00000004
+[auto_scale_1 @ 000002227bde2240] [framesync @ 0000022201e050e8] Selected 1/24 time base
+[auto_scale_1 @ 000002227bde2240] [framesync @ 0000022201e050e8] Sync level 1
+[graph -1 input from stream 0:0 @ 000002227bde2d40] video frame properties congruent with link at pts_time: 0
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0031.png' for reading
+[file @ 0000022201da2b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222001910c0] Statistics: 1332080 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0032.png' for reading
+[file @ 0000022201da2b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190300] Statistics: 1332757 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0033.png' for reading
+[file @ 0000022201da2980] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200191500] Statistics: 1327982 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0034.png' for reading
+[file @ 0000022201da27c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002220018fc40] Statistics: 1328197 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0035.png' for reading
+[file @ 0000022201da2700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190740] Statistics: 1334326 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0036.png' for reading
+[file @ 0000022201da2240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200191640] Statistics: 1335213 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0037.png' for reading
+[file @ 0000022201da1f00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200191500] Statistics: 1343790 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0038.png' for reading
+[file @ 0000022201da2640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222001910c0] Statistics: 1345374 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0039.png' for reading
+[file @ 0000022201da27c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200191500] Statistics: 1333746 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0040.png' for reading
+[file @ 0000022201da2640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190300] Statistics: 1335756 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0041.png' for reading
+[file @ 0000022201da2980] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002220018fc40] Statistics: 1341211 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0042.png' for reading
+[file @ 0000022201da2980] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190300] Statistics: 1341499 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0043.png' for reading
+[file @ 0000022201da2a40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190e00] Statistics: 1344650 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0044.png' for reading
+[file @ 0000022201da2b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200191500] Statistics: 1344878 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0045.png' for reading
+[file @ 0000022201da2640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190e00] Statistics: 1347175 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0046.png' for reading
+[file @ 0000022201da2140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002220018fc40] Statistics: 1348355 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0047.png' for reading
+[file @ 0000022201da2240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002220018fac0] Statistics: 1341100 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0048.png' for reading
+[file @ 0000022201da2140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200191640] Statistics: 1342090 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0049.png' for reading
+[file @ 0000022201da2080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002220018fc40] Statistics: 1354331 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0050.png' for reading
+[file @ 0000022201da2580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190e00] Statistics: 1356295 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0051.png' for reading
+[file @ 0000022201da2140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200191640] Statistics: 1357880 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0052.png' for reading
+[file @ 0000022201da2240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200191500] Statistics: 1358494 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0053.png' for reading
+[file @ 0000022201da2580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190cc0] Statistics: 1360380 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0054.png' for reading
+[file @ 0000022201da23c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190cc0] Statistics: 1361801 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0055.png' for reading
+[file @ 0000022201da1f00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190480] Statistics: 1359975 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0056.png' for reading
+[file @ 0000022201da2480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200191500] Statistics: 1360240 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0057.png' for reading
+[file @ 0000022201da2480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190cc0] Statistics: 1358916 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0058.png' for reading
+[file @ 0000022201da2240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222001905c0] Statistics: 1359546 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0059.png' for reading
+[file @ 0000022201da2700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200191500] Statistics: 1352554 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0060.png' for reading
+[file @ 0000022201da1d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190740] Statistics: 1353808 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0061.png' for reading
+[file @ 0000022201da23c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190880] Statistics: 1366492 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0062.png' for reading
+[file @ 0000022201da2140] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002220018fd80] Statistics: 1366885 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0063.png' for reading
+[file @ 0000022201da1fc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200191500] Statistics: 1368369 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0064.png' for reading
+[file @ 0000022201da2300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200191500] Statistics: 1368902 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0065.png' for reading
+[file @ 0000022201da2240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190880] Statistics: 1369759 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0066.png' for reading
+[file @ 0000022201da27c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200191500] Statistics: 1371470 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0067.png' for reading
+[file @ 0000022201da2a40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190cc0] Statistics: 1368661 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0068.png' for reading
+[file @ 0000022201da2640] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190740] Statistics: 1369598 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0069.png' for reading
+[file @ 0000022201da2b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190300] Statistics: 1367745 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0070.png' for reading
+[file @ 0000022201da1d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190300] Statistics: 1368288 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0071.png' for reading
+[file @ 0000022201da2b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190880] Statistics: 1360270 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0072.png' for reading
+[file @ 0000022201da2b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002220018fac0] Statistics: 1361244 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0073.png' for reading
+[file @ 0000022201da1f00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190300] Statistics: 1373501 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0074.png' for reading
+[file @ 0000022201da2b00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200191500] Statistics: 1374798 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0075.png' for reading
+[file @ 0000022201da23c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222001910c0] Statistics: 1374087 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0076.png' for reading
+[file @ 0000022201da2980] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222001910c0] Statistics: 1373640 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0077.png' for reading
+[file @ 0000022201da2700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002220018fc40] Statistics: 1374777 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0078.png' for reading
+[file @ 0000022201da1f00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190cc0] Statistics: 1374777 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0079.png' for reading
+[file @ 0000022201da27c0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190cc0] Statistics: 1371344 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0080.png' for reading
+[file @ 0000022201da2700] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190040] Statistics: 1371344 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0081.png' for reading
+[file @ 0000022201da2300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190e00] Statistics: 1369612 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0082.png' for reading
+[file @ 0000022201da2580] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190cc0] Statistics: 1369274 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0083.png' for reading
+[file @ 0000022201da2480] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200191640] Statistics: 1360793 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0084.png' for reading
+[file @ 0000022201da2080] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 00000222001910c0] Statistics: 1360793 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0085.png' for reading
+[file @ 0000022201da1f00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190e00] Statistics: 1373353 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0086.png' for reading
+[file @ 0000022201da2300] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200191500] Statistics: 1373353 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0087.png' for reading
+[file @ 0000022201da1d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002220018fc40] Statistics: 1373673 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0088.png' for reading
+[file @ 0000022201da1d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200191500] Statistics: 1373640 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0089.png' for reading
+[file @ 0000022201da1d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190480] Statistics: 1374777 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0090.png' for reading
+[file @ 0000022201da1d40] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200191500] Statistics: 1374777 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0091.png' for reading
+[file @ 0000022201da2240] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002220018fc40] Statistics: 1371344 bytes read, 0 seeks
+[image2 @ 000002227be018c0] Opening 'E:/Krita/Art/frame0092.png' for reading
+[file @ 0000022201da1fc0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 0000022200190480] Statistics: 1371344 bytes read, 0 seeks
+[in#0/image2 @ 000002227bdf7b80] EOF while reading input
+[in#0/image2 @ 000002227bdf7b80] Terminating thread with return code 0 (success)
+[vist#0:0/png @ 000002227be03440] [dec:png @ 000002227be9e640] Decoder thread received EOF packet
+[vist#0:0/png @ 000002227be03440] [dec:png @ 000002227be9e640] Decoder returned EOF, finishing
+[vist#0:0/png @ 000002227be03440] [dec:png @ 000002227be9e640] Terminating thread with return code 0 (success)
+[auto_scale_0 @ 000002227bde2a40] [framesync @ 0000022200084728] Sync level 0
+[Parsed_palettegen_0 @ 000002227bde2740] 255(+1) colors generated out of 391762 colors; ratio=0.000651
+Output #0, image2, to 'E:/Krita/Art/KritaTempPalettegen_%06d.png':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0, 0, 1/24: Video: png, 1 reference frame, rgba(pc, gbr/unknown/unknown, progressive), 16x16 [SAR 1:1 DAR 1:1], 0/1, q=2-31, 200 kb/s, 24 fps, 24 tbn
+      Metadata:
+        encoder         : Lavc61.19.101 png
+[out#0/image2 @ 000002227bdf9a80] Starting thread...
+[auto_scale_1 @ 000002227bde2240] [framesync @ 0000022201e050e8] Sync level 0
+[out_#0:0 @ 000002227bde2f40] EOF on sink link out_#0:0:default.
+[vf#0:0 @ 000002227bdea4c0] Filtergraph returned EOF, finishing
+[vf#0:0 @ 000002227bdea4c0] All consumers returned EOF
+[vost#0:0/png @ 000002227be05940] Encoder thread received EOF
+[vost#0:0/png @ 000002227be05940] Terminating thread with return code 0 (success)
+[image2 @ 000002227be03600] Opening 'E:/Krita/Art/KritaTempPalettegen_000001.png' for writing
+[file @ 00000222001e2d80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000002227be5cf40] Statistics: 1012 bytes written, 0 seeks, 1 writeouts
+[out#0/image2 @ 000002227bdf9a80] All streams finished
+[out#0/image2 @ 000002227bdf9a80] Terminating thread with return code 0 (success)
+[vf#0:0 @ 000002227bdea4c0] Terminating thread with return code 0 (success)
+[out#0/image2 @ 000002227bdf9a80] Output file #0 (E:/Krita/Art/KritaTempPalettegen_%06d.png):
+[out#0/image2 @ 000002227bdf9a80]   Output stream #0:0 (video): 1 frames encoded; 1 packets muxed (1012 bytes); 
+[out#0/image2 @ 000002227bdf9a80]   Total: 1 packets (1012 bytes) muxed
+[out#0/image2 @ 000002227bdf9a80] video:1KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.7 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=0.0275x    
+[in#0/image2 @ 000002227bdf7b80] Input file #0 (E:/Krita/Art/frame%04d.png):
+[in#0/image2 @ 000002227bdf7b80]   Input stream #0:0 (video): 93 packets read (124893547 bytes); 93 frames decoded; 0 decode errors; 
+[in#0/image2 @ 000002227bdf7b80]   Total: 93 packets (124893547 bytes) demuxed
+Input #0, image2, from 'E:/Krita/Art/frame%04d.png':
+  Duration: 00:00:03.72, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba(pc, gbr/unknown/unknown), 1920x1080 [SAR 11811:11811 DAR 16:9], 25 fps, 25 tbr, 25 tbn
+Input #1, image2, from 'E:/Krita/Art/KritaTempPalettegen_%06d.png':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: N/A
+  Stream #1:0: Video: png, rgba(pc, gbr/unknown/unknown), 16x16 [SAR 1:1 DAR 1:1], 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse
+  Stream #1:0 (png) -> paletteuse
+  paletteuse:default -> Stream #0:0 (gif)
+Press [q] to stop, [?] for help
+Output #0, gif, to 'E:/Krita/Art/3.gif':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0: Video: gif, pal8(pc, gbr/unknown/unknown, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 24 fps, 100 tbn
+      Metadata:
+        encoder         : Lavc61.19.101 gif
+frame=    7 fps=0.0 q=-0.0 size=     512KiB time=00:00:00.29 bitrate=14380.5kbits/s speed=0.57x    frame=   15 fps= 15 q=-0.0 size=    1536KiB time=00:00:00.62 bitrate=20132.7kbits/s speed=0.615x    frame=   22 fps= 14 q=-0.0 size=    4864KiB time=00:00:00.91 bitrate=43468.2kbits/s speed=0.601x    frame=   30 fps= 15 q=-0.0 size=    8704KiB time=00:00:01.25 bitrate=57042.5kbits/s speed=0.615x    frame=   38 fps= 15 q=-0.0 size=   12544KiB time=00:00:01.58 bitrate=64901.3kbits/s speed=0.623x    frame=   46 fps= 15 q=-0.0 size=   16640KiB time=00:00:01.91 bitrate=71120.8kbits/s speed=0.629x    frame=   53 fps= 15 q=-0.0 size=   20224KiB time=00:00:02.20 bitrate=75022.7kbits/s speed=0.621x    frame=   61 fps= 15 q=-0.0 size=   24320KiB time=00:00:02.54 bitrate=78385.3kbits/s speed=0.626x    frame=   69 fps= 15 q=-0.0 size=   28416KiB time=00:00:02.87 bitrate=80968.3kbits/s speed=0.629x    frame=   76 fps= 15 q=-0.0 size=   32000KiB time=00:00:03.16 bitrate=82782.3kbits/s speed=0.624x    frame=   85 fps= 15 q=-0.0 size=   33536KiB time=00:00:03.54 bitrate=77569.9kbits/s speed=0.635x    [out#0/gif @ 0000017a943e8580] video:33989KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000057%
+frame=   93 fps= 15 q=-0.0 Lsize=   33989KiB time=00:00:03.87 bitrate=71855.6kbits/s speed=0.636x    
