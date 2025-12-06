@@ -1,21 +1,0 @@
-E:/Program Files/Krita (x64)/bin/ffmpeg.exe -hide_banner -y -y -r 24 -start_number 50 -start_number_range 1 -i E:/Krita/Art/frame%04d.png -i E:/Krita/Art/KritaTempPalettegen_%06d.png -lavfi [0:v][1:v]paletteuse=dither=sierra2_4a:diff_mode=none -f gif -loop 0 -gifflags +transdiff E:/Krita/Art/unt.gif
-=====================================================
-Input #0, image2, from 'E:/Krita/Art/frame%04d.png':
-  Duration: 00:00:00.92, start: 0.000000, bitrate: N/A
-  Stream #0:0: Video: png, rgba(pc, gbr/unknown/unknown), 3508x2480 [SAR 11811:11811 DAR 877:620], 25 fps, 25 tbr, 25 tbn
-Input #1, image2, from 'E:/Krita/Art/KritaTempPalettegen_%06d.png':
-  Duration: 00:00:00.04, start: 0.000000, bitrate: N/A
-  Stream #1:0: Video: png, rgba(pc, gbr/unknown/unknown), 16x16 [SAR 1:1 DAR 1:1], 25 fps, 25 tbr, 25 tbn
-Stream mapping:
-  Stream #0:0 (png) -> paletteuse
-  Stream #1:0 (png) -> paletteuse
-  paletteuse:default -> Stream #0:0 (gif)
-Press [q] to stop, [?] for help
-Output #0, gif, to 'E:/Krita/Art/unt.gif':
-  Metadata:
-    encoder         : Lavf61.7.100
-  Stream #0:0: Video: gif, pal8(pc, gbr/unknown/unknown, progressive), 3508x2480 [SAR 1:1 DAR 877:620], q=2-31, 200 kb/s, 24 fps, 100 tbn
-      Metadata:
-        encoder         : Lavc61.19.101 gif
-frame=    2 fps=0.0 q=-0.0 size=       0KiB time=00:00:00.08 bitrate=   0.0kbits/s speed=0.164x    frame=    6 fps=5.9 q=-0.0 size=      86KiB time=00:00:00.25 bitrate=2804.4kbits/s speed=0.247x    frame=   10 fps=6.6 q=-0.0 size=     167KiB time=00:00:00.41 bitrate=3291.7kbits/s speed=0.275x    frame=   14 fps=6.9 q=-0.0 size=     251KiB time=00:00:00.58 bitrate=3529.0kbits/s speed=0.287x    frame=   18 fps=7.1 q=-0.0 size=     256KiB time=00:00:00.75 bitrate=2796.2kbits/s speed=0.296x    frame=   22 fps=7.2 q=-0.0 size=     256KiB time=00:00:00.91 bitrate=2287.8kbits/s speed=0.301x    [out#0/gif @ 000001ea82259400] video:467KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.004179%
-frame=   23 fps=7.5 q=-0.0 Lsize=     467KiB time=00:00:00.95 bitrate=3995.6kbits/s speed=0.311x    
