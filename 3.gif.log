@@ -1,0 +1,21 @@
+E:/Program Files/Krita (x64)/bin/ffmpeg.exe -hide_banner -y -y -r 24 -start_number 0 -start_number_range 1 -i E:/Krita/Art/frame%04d.png -i E:/Krita/Art/KritaTempPalettegen_%06d.png -lavfi [0:v][1:v]paletteuse=dither=sierra2_4a:diff_mode=none -f gif -loop 0 -gifflags +transdiff E:/Krita/Art/3.gif
+=====================================================
+Input #0, image2, from 'E:/Krita/Art/frame%04d.png':
+  Duration: 00:00:03.72, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba(pc, gbr/unknown/unknown), 1920x1080 [SAR 11811:11811 DAR 16:9], 25 fps, 25 tbr, 25 tbn
+Input #1, image2, from 'E:/Krita/Art/KritaTempPalettegen_%06d.png':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: N/A
+  Stream #1:0: Video: png, rgba(pc, gbr/unknown/unknown), 16x16 [SAR 1:1 DAR 1:1], 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse
+  Stream #1:0 (png) -> paletteuse
+  paletteuse:default -> Stream #0:0 (gif)
+Press [q] to stop, [?] for help
+Output #0, gif, to 'E:/Krita/Art/3.gif':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0: Video: gif, pal8(pc, gbr/unknown/unknown, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 24 fps, 100 tbn
+      Metadata:
+        encoder         : Lavc61.19.101 gif
+frame=    7 fps=0.0 q=-0.0 size=     512KiB time=00:00:00.29 bitrate=14380.5kbits/s speed=0.57x    frame=   15 fps= 15 q=-0.0 size=    1536KiB time=00:00:00.62 bitrate=20132.7kbits/s speed=0.615x    frame=   22 fps= 14 q=-0.0 size=    4864KiB time=00:00:00.91 bitrate=43468.2kbits/s speed=0.601x    frame=   30 fps= 15 q=-0.0 size=    8704KiB time=00:00:01.25 bitrate=57042.5kbits/s speed=0.615x    frame=   38 fps= 15 q=-0.0 size=   12544KiB time=00:00:01.58 bitrate=64901.3kbits/s speed=0.623x    frame=   46 fps= 15 q=-0.0 size=   16640KiB time=00:00:01.91 bitrate=71120.8kbits/s speed=0.629x    frame=   53 fps= 15 q=-0.0 size=   20224KiB time=00:00:02.20 bitrate=75022.7kbits/s speed=0.621x    frame=   61 fps= 15 q=-0.0 size=   24320KiB time=00:00:02.54 bitrate=78385.3kbits/s speed=0.626x    frame=   69 fps= 15 q=-0.0 size=   28416KiB time=00:00:02.87 bitrate=80968.3kbits/s speed=0.629x    frame=   76 fps= 15 q=-0.0 size=   32000KiB time=00:00:03.16 bitrate=82782.3kbits/s speed=0.624x    frame=   85 fps= 15 q=-0.0 size=   33536KiB time=00:00:03.54 bitrate=77569.9kbits/s speed=0.635x    [out#0/gif @ 0000017a943e8580] video:33989KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000057%
+frame=   93 fps= 15 q=-0.0 Lsize=   33989KiB time=00:00:03.87 bitrate=71855.6kbits/s speed=0.636x    
